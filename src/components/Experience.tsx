@@ -40,7 +40,7 @@ const Experience = () => {
           {/* Section Title */}
           <motion.div variants={itemVariants} className="text-center">
             <h2 className="text-4xl sm:text-5xl font-bold font-grotesk mb-4">
-              <span className="text-primary-black">Experience</span>
+              <span className="text-primary-black">工作經歷</span>
             </h2>
             <div className="w-20 h-1 bg-primary-black mx-auto rounded-full"></div>
           </motion.div>

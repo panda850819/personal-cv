@@ -41,7 +41,7 @@ const Projects = () => {
           {/* Section Title */}
           <motion.div variants={itemVariants} className="text-center">
             <h2 className="text-4xl sm:text-5xl font-bold font-grotesk mb-4">
-              <span className="text-primary-black">Featured Projects</span>
+              <span className="text-primary-black">精選專案</span>
             </h2>
             <div className="w-20 h-1 bg-primary-black mx-auto rounded-full"></div>
             <p className="mt-6 text-lg text-primary-gray max-w-2xl mx-auto">

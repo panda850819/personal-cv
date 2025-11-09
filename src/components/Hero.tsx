@@ -59,7 +59,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="text-5xl sm:text-6xl md:text-7xl font-bold font-grotesk"
           >
-            I&apos;m{" "}
+            我是{" "}
             <span className="text-primary-black">{personalInfo.name}</span>
           </motion.h1>
 
@@ -99,13 +99,13 @@ const Hero = () => {
               onClick={scrollToAbout}
               className="px-8 py-3 bg-primary-black text-white font-bold rounded-lg hover:bg-primary-dark transition-all duration-300 shadow-soft hover:shadow-soft-lg"
             >
-              Explore My Work
+              探索我的作品
             </button>
             <a
               href="#contact"
               className="px-8 py-3 border-2 border-primary-black text-primary-black font-bold rounded-lg hover:bg-primary-black hover:text-white transition-all duration-300"
             >
-              Get In Touch
+              聯絡我
             </a>
           </motion.div>
         </motion.div>

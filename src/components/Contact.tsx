@@ -37,6 +37,7 @@ const Contact = () => {
     { name: "LinkedIn", icon: <Linkedin className="w-6 h-6" />, link: socialLinks.linkedin, color: "hover:text-primary-black" },
     { name: "GitHub", icon: <Github className="w-6 h-6" />, link: socialLinks.github, color: "hover:text-primary-black" },
     { name: "Medium", icon: <BookOpen className="w-6 h-6" />, link: socialLinks.medium, color: "hover:text-primary-black" },
+    { name: "Blog", icon: <BookOpen className="w-6 h-6" />, link: socialLinks.blog, color: "hover:text-primary-black" },
   ];
 
   const copyEmailToClipboard = () => {
@@ -57,11 +58,11 @@ const Contact = () => {
           {/* Section Title */}
           <motion.div variants={itemVariants} className="text-center">
             <h2 className="text-4xl sm:text-5xl font-bold font-grotesk mb-4">
-              <span className="text-primary-black">Get In Touch</span>
+              <span className="text-primary-black">聯絡我</span>
             </h2>
             <div className="w-20 h-1 bg-primary-black mx-auto rounded-full"></div>
             <p className="mt-6 text-lg text-primary-gray max-w-2xl mx-auto">
-              無論是合作機會、產品諮詢，或只是想聊聊 Web3，都歡迎與我聯繫！
+              無論是合作機會、產品諮詢，或只是想聊聊天，包含 AI / 生產力 / Web3，都歡迎與我聯繫！
             </p>
           </motion.div>
 
@@ -84,7 +85,7 @@ const Contact = () => {
 
           {/* Social Links */}
           <motion.div variants={itemVariants}>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
               {socialIcons.map((social, index) => (
                 <motion.a
                   key={index}
@@ -112,7 +113,7 @@ const Contact = () => {
               href={`mailto:${socialLinks.email}`}
               className="inline-block px-8 py-4 bg-primary-black text-white font-bold rounded-lg hover:bg-primary-dark transition-all duration-300 shadow-soft hover:shadow-soft-lg text-lg"
             >
-              Send Me a Message
+              寄信給我
             </a>
           </motion.div>
 
