@@ -23,17 +23,56 @@ export const about = {
 
 export const experiences = [
   {
+    company: "TONX",
+    position: "People & Ops Lead",
+    period: "2025/07 - 現在",
+    location: "混合型",
+    description: "負責 TONX 的人員與營運管理，統籌團隊運作與財務會計工作。",
+    achievements: [
+      "管理公司營運與人員發展",
+      "處理財務會計與預算規劃",
+      "優化營運流程與團隊協作",
+    ],
+    tags: ["營運管理", "會計", "人員管理", "團隊領導"],
+  },
+  {
+    company: "TONX",
+    position: "Operations",
+    period: "2023/07 - 2025/06",
+    location: "現場",
+    description: "負責 TONX 的日常營運管理與內容行銷策略規劃。",
+    achievements: [
+      "執行營運管理與流程優化",
+      "規劃並執行內容行銷策略",
+      "協調跨部門專案與資源整合",
+    ],
+    tags: ["營運管理", "內容行銷", "專案管理", "策略規劃"],
+  },
+  {
     company: "WalkinCat 走路貓",
     position: "Co-Founder / 自媒體內容創作者",
-    period: "2020/11 - 現在",
-    location: "台灣",
+    period: "2020/07 - 現在",
+    location: "台灣台北 · 遠端",
     description: "經營 WalkinCat 走路貓自媒體，主要活躍於 Instagram，分享 AI、生產力工具與 Web3 相關內容。",
     achievements: [
       "創作 AI 與生產力工具相關內容",
       "分享 Web3 與區塊鏈深度見解",
       "建立活躍的社群互動",
     ],
-    tags: ["自媒體", "AI", "生產力", "Web3"],
+    tags: ["內容行銷", "行銷策略", "自媒體", "Web3"],
+  },
+  {
+    company: "Taiwan Blockchain Academia 台灣區塊鏈大學聯盟",
+    position: "監事",
+    period: "2019/06 - 現在",
+    location: "台灣",
+    description: "擔任台灣區塊鏈大學聯盟監事，參與組織治理與區塊鏈教育推廣。",
+    achievements: [
+      "參與聯盟治理與決策",
+      "推動區塊鏈教育與學術交流",
+      "連結產學資源與合作機會",
+    ],
+    tags: ["區塊鏈", "教育", "組織治理", "產學合作"],
   },
   {
     company: "WOO Network",
