@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://pandatseng.com/sitemap.xml",
+    sitemap: "https://pdzeng.com/sitemap.xml",
   };
 }
