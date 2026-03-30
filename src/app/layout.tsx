@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   description: "Panda Tseng | Crypto PM, Builder, KOL — Terminal CV",
   keywords: ["Web3", "Crypto", "Product Manager", "DeFi", "Blockchain", "KOL"],
   authors: [{ name: "Panda Tseng" }],
+  metadataBase: new URL("https://pdzeng.com"),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
     title: "panda@cv ~ % whoami",
     description: "Panda Tseng — Building the bridge between TradFi & Web3",
